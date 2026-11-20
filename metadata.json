@@ -1,0 +1,6 @@
+{
+  "name": "Rescaled Battery",
+  "description": "Draws a rescaled battery capsule over the status-bar battery icon with Emergency, Normal, and Excess power ranges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

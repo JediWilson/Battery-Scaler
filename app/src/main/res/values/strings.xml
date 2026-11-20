@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rescaled Battery</string>
+    <string name="app_explanation">Rescaled Battery maps your battery charge with sub-percent fuel-gauge precision into three power zones: 0–19% becomes 0–95% Emergency (red), 20–80% becomes 0–100% Normal (white), and 81–100% becomes 5–100% Excess (blue). While charging, the capsule turns green with a lightning bolt.</string>
+
+    <string name="accessibility_service_description">Draws the non-interactive Rescaled Battery capsule directly above the status-bar battery icon. Never reads screen content or intercepts touches.</string>
+
+    <string name="overlay_toggle_title">Status bar overlay</string>
+    <string name="overlay_toggle_subtitle_on">Covering the status-bar battery icon</string>
+    <string name="overlay_toggle_subtitle_off">Hidden until enabled</string>
+
+    <string name="grant_overlay_permission_button">Grant overlay permission</string>
+    <string name="permission_needed_title">Accessibility overlay required</string>
+    <string name="permission_needed_message">To draw directly on top of Android\'s status-bar battery icon, enable Rescaled Battery under Accessibility settings. (If Android shows \"Restricted setting\", open App Info → ⋮ → Allow restricted settings first.)</string>
+    <string name="permission_denied_message">Accessibility overlay permission was not enabled. Enable Rescaled Battery in Accessibility settings before turning the overlay on.</string>
+
+    <string name="status_active">Overlay active · Real %1$s → %2$d%% (%3$s)</string>
+    <string name="status_active_charging">Overlay active · Real %1$s → %2$d%% (%3$s · Charging)</string>
+    <string name="status_inactive">Overlay off · Real %1$s → %2$d%% (%3$s)</string>
+    <string name="status_inactive_charging">Overlay off · Real %1$s → %2$d%% (%3$s · Charging)</string>
+    <string name="status_permission_required">Permission needed · Real %1$s → %2$d%% (%3$s)</string>
+    <string name="status_permission_revoked">Overlay stopped because the Rescaled Battery accessibility service was turned off.</string>
+
+    <string name="alignment_section_title">Adjust position &amp; size</string>
+    <string name="alignment_horizontal_label">Horizontal offset</string>
+    <string name="alignment_vertical_label">Vertical offset</string>
+    <string name="alignment_size_label">Capsule height</string>
+    <string name="alignment_reset_button">Reset defaults</string>
+
+    <string name="preview_section_title">Live capsule preview</string>
+    <string name="preview_section_subtitle">Drag the slider to inspect every power range and smooth percentage step.</string>
+    <string name="preview_real_label">Real battery</string>
+    <string name="preview_displayed_label">Displayed</string>
+    <string name="preview_range_label">Active range</string>
+    <string name="preview_slider_label">Simulated real battery</string>
+    <string name="preview_charging_label">Charging</string>
+    <string name="preview_charging_badge">Charging</string>
+
+    <string name="range_emergency">Emergency power range</string>
+    <string name="range_normal">Normal</string>
+    <string name="range_excess">Excess power range</string>
+
+    <string name="zone_emergency_short">0–19% Emergency</string>
+    <string name="zone_normal_short">20–80% Normal</string>
+    <string name="zone_excess_short">81–100% Excess</string>
+
+    <string name="notification_channel_name">Rescaled Battery Overlay</string>
+    <string name="notification_channel_description">Ongoing notification while the rescaled battery status-bar overlay is active.</string>
+    <string name="notification_title">Rescaled Battery active</string>
+    <string name="notification_content">Real %1$s → %2$d%% (%3$s)</string>
+    <string name="notification_content_charging">Real %1$s → %2$d%% (%3$s · Charging)</string>
+    <string name="notification_action_stop">Stop overlay</string>
+
+    <string name="cd_battery_capsule">Rescaled battery capsule showing %1$d percent, %2$s</string>
+    <string name="cd_battery_capsule_charging">Rescaled battery capsule showing %1$d percent, %2$s, charging</string>
+    <string name="cd_overlay_icon">Status bar overlay status</string>
+    <string name="cd_permission_warning">Permission required</string>
+    <string name="cd_expand_alignment">Toggle overlay alignment controls</string>
+</resources>
